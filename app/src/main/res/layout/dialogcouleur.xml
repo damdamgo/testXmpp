@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b11"
+                    android:tag="#F44336"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#F44336"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b12"
+                    android:tag="#E91E63"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#E91E63"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/b13"
+                android:tag="#9C27B0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="#9C27B0"
+                app:border_width="0dp"
+                app:border_color="#FF000000"
+                android:onClick="cliquecouleur"
+                android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b14"
+                    android:tag="#673AB7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#673AB7"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b21"
+                    android:tag="#3F51B5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#3F51B5"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b22"
+                    android:tag="#2196F3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#2196F3"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b23"
+                    android:tag="#03A9F4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#03A9F4"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b24"
+                    android:tag="#00BCD4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#00BCD4"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b31"
+                    android:tag="#009688"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#009688"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b32"
+                    android:tag="#4CAF50"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#4CAF50"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b33"
+                    android:tag="#8BC34A"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#8BC34A"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b34"
+                    android:tag="#CDDC39"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#CDDC39"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b41"
+                    android:tag="#FFEB3B"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#FFEB3B"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b42"
+                    android:tag="#FFC107"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#FFC107"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b43"
+                    android:tag="#FF9800"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#FF9800"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b44"
+                    android:tag="#FF5722"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#FF5722"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b51"
+                    android:tag="#795548"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#795548"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b52"
+                    android:tag="#9E9E9E"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#9E9E9E"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b53"
+                    android:tag="#607D8B"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#607D8B"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/b54"
+                    android:tag="#FFFFFF"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="#FFFFFF"
+                    app:border_width="0dp"
+                    app:border_color="#FF000000"
+                    android:onClick="cliquecouleur"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

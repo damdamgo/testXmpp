@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffe1c6b8"
+    android:id="@+id/principale">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/containt_message">
+        <android.support.v4.widget.SwipeRefreshLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swipe"
+            android:layout_above="@+id/card_view">
+            <com.github.ksoichiro.android.observablescrollview.ObservableListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list"
+            android:layout_above="@+id/layout_ecriture"
+            android:divider="@null"
+                android:paddingTop="2dp" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="#aeaeae">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a4a4">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layoutshowphotoenvoit">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/showphoto"
+                        android:layout_alignParentTop="true" />
+                </LinearLayout>
+
+                <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:id="@+id/layout_ecriture"
+                android:layout_marginBottom="10dp"
+                    android:clipToPadding="false"
+                    android:layout_below="@+id/layoutshowphotoenvoit"
+                    android:layout_marginTop="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/boutonsend"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/envoyer"
+                    app:border_width="3dp"
+                    app:border_color="#FF000000"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_alignParentTop="true" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/messageedit"
+                    android:layout_toLeftOf="@+id/boutonsend"
+                    android:background="#ffffffff"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/multimedia" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/multimedia"
+                    android:background="@drawable/option"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentTop="true" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/trianglesend"
+                    android:background="@drawable/trianglesend"
+                    android:layout_toRightOf="@+id/messageedit"></LinearLayout>
+
+            </RelativeLayout>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/layoutdateinffff"
+            android:layout_marginTop="5dp"
+            android:paddingTop="?android:attr/actionBarSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/datetextinfff"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#3F51B5"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
